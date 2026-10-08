@@ -1,3 +1,11 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,  /*Aca le estas diciendo a VSCODE usa el puerto 5501 para lanzar liveserver, pero puedes configurar mas cosas*/
+    "editor.fontFamily": "Fira Code",  /* Define la fuente del editor (ejemplo popular: --Fira Code con ligaduras activadas) */
+    "editor.fontSize": 14, /*Ajusta el tamaño de la letra en píxeles*/
+    "editor.tabSize": 2, /*Número de espacios por tabulación (habitualmente 2 o 4).*/
+    "editor.wordWrap": "on", /* Ajusta las líneas largas para que no se salgan de la pantalla; el valor recomendado es --on*/
+    "editor.formatOnSave": true,  /*Formatea automáticamente el código cada vez que guardas el archivo o sea cada vez que das ctrl + S  */
+    "files.trimTrailingWhitespace": true, /*Elimina automáticamente los espacios vacíos al final de las líneas al guardar*/
+    "files.insertFinalNewline": true,   /*Asegura que los archivos terminen siempre con una línea en blanco*/
+    "window.zoomLevel": 1  /*ZOOM para que no te mates los ojos en la pantalla*/
 }
